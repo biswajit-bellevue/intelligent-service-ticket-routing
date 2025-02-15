@@ -39,11 +39,13 @@ Based on the comparison of accuracy and loss metrics, the LSTM with GloVe pretra
 A model’s performance to generalize well with unseen data can be evaluated with accuracy and loss learning curves. A compassion of generalization curves between the LSTM models shows that the LSTM with own embedding has less overfitting than the LSTM with the pretrained GloVe embeddings. The wider gap between the training and validation curves demonstrates higher overfitting.
 
 _Generalization Curves for LSTM models_
+
 <img src="./img/LSTM-curves.png" width="400" height="300"/>
 
 Similarly, a comparison between sequential neural network with own embeddings and LSTM with own word embeddings shows that sequential neural network is a better model due to less overfitting, even though both the models have similar accuracy.
 
 _Generalization Curves - LSTM and Sequential Neural Network_
+
 <img src="./img/SequentialNN-LSTM-curves.png" width="400" height="300"/>
 
 ### Results
